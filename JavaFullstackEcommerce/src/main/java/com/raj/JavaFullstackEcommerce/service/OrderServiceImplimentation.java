@@ -16,7 +16,7 @@ public class OrderServiceImplimentation implements OrderService {
 
     private CartRepository cartRepository;
 
-    private CartItemService cartItemService;
+    private CartService cartItemService;
 
     private ProductService productService;
     @Override
